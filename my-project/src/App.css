@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.bg-org {
+  background: #ff5252;
+}
+
+.link:hover {
+  color: #ff5252;
+}
