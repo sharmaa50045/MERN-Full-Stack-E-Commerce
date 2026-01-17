@@ -1,11 +1,17 @@
 @import "tailwindcss";
 
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .container {
   width: 90%;
   margin: auto;
 }
 
-header.top-strip {}
 
 .bg-org {
   background: #ff5252;
