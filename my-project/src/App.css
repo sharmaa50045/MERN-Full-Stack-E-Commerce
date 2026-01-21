@@ -12,3 +12,11 @@
 .link:hover {
   color: #ff5252;
 }
+
+.header {
+  border-bottom: 1px solid black;
+}
+
+.hr {
+  display: none;
+}
