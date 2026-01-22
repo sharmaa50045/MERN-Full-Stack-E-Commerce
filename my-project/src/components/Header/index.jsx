@@ -23,7 +23,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 const Header = () => {
   return (
     <header>
-      {/* Top Strip (Hidden on Mobile) */}
+
       <div className="top-strip hidden md:block py-2 border-t border-b border-gray-200">
 
         <div className="container mx-auto px-4">
@@ -48,24 +48,19 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Main Header */}
       <div className="py-3">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-3 md:gap-0">
 
-            {/* Logo */}
             <div className="w-full md:w-[25%] flex justify-center md:justify-start">
               <Link to="/">
                 <img src={logo} alt="logo" className="h-12 object-contain" />
               </Link>
             </div>
 
-            {/* Search (Hide on Mobile if needed) */}
             <div className="hidden md:block md:w-[45%]">
               <Search />
             </div>
-
-            {/* Auth + Cart */}
             <div className="w-full md:w-[30%] flex justify-center md:justify-end">
               <ul className="flex items-center gap-4">
                 <li className="list-none"> <Link to="/login" className='link transition text-[15px] font-[500]'>Login</Link> | &nbsp;<Link to="/register" className='link transition text-[15px] font-[500]'>Register</Link> </li>
@@ -101,7 +96,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Mobile Search */}
           <div className="block md:hidden mt-3">
             <Search />
           </div>

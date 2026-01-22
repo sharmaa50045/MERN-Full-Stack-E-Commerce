@@ -17,7 +17,7 @@ const CategoryPanel = (props) => {
 
   const toggleSubmenu = (index) => {
     setSubmenuOpen(submenuOpen === index ? null : index);
-    setInnerSubmenuOpen(null); // reset inner menu
+    setInnerSubmenuOpen(null);
   };
 
   const toggleInnerSubmenu = (index) => {
@@ -37,7 +37,7 @@ const CategoryPanel = (props) => {
 
       <ul className='w-full'>
 
-        {/* ================= Fashion ================= */}
+
         <li className='relative'>
           <Button className='w-full !justify-start !text-black'>
             Fashion
@@ -89,7 +89,7 @@ const CategoryPanel = (props) => {
           )}
         </li>
 
-        {/* ================= Electronics ================= */}
+
         <li className='relative mt-2'>
           <Button className='w-full !justify-start !text-black'>
             Electronics
