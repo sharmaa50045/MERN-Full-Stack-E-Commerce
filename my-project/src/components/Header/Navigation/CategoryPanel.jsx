@@ -59,7 +59,7 @@ const CategoryPanel = (props) => {
             <ul className='pl-4'>
 
               <li className='relative'>
-                <Button className='w-full !justify-start'>
+                <Button className='w-full !justify-start  !text-black'>
                   Apparel
                 </Button>
 
@@ -77,10 +77,10 @@ const CategoryPanel = (props) => {
 
                 {innerSubmenuOpen === 0 && (
                   <ul className='pl-4'>
-                    <li><Button className='w-full !justify-start'>Smart Tablet</Button></li>
-                    <li><Button className='w-full !justify-start'>Crepe T-shirt</Button></li>
-                    <li><Button className='w-full !justify-start'>Leather Watch</Button></li>
-                    <li><Button className='w-full !justify-start'>Rolling Diamond</Button></li>
+                    <li><Button className='w-full !justify-start  !text-black'>Smart Tablet</Button></li>
+                    <li><Button className='w-full !justify-start  !text-black'>Crepe T-shirt</Button></li>
+                    <li><Button className='w-full !justify-start  !text-black'>Leather Watch</Button></li>
+                    <li><Button className='w-full !justify-start  !text-black'>Rolling Diamond</Button></li>
                   </ul>
                 )}
               </li>
@@ -109,9 +109,9 @@ const CategoryPanel = (props) => {
 
           {submenuOpen === 1 && (
             <ul className='pl-4'>
-              <li><Button className='w-full !justify-start'>Mobiles</Button></li>
-              <li><Button className='w-full !justify-start'>Laptops</Button></li>
-              <li><Button className='w-full !justify-start'>Accessories</Button></li>
+              <li><Button className='w-full !justify-start  !text-black'>Mobiles</Button></li>
+              <li><Button className='w-full !justify-start  !text-black'>Laptops</Button></li>
+              <li><Button className='w-full !justify-start  !text-black'>Accessories</Button></li>
             </ul>
           )}
         </li>

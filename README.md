@@ -121,5 +121,5 @@ Admin Dashboard Analytics
 
 👨‍💻 Author
 
-Your Name
+Aaditya Sharma
 Full Stack Developer (MERN)

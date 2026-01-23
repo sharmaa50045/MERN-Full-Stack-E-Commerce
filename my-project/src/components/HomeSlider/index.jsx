@@ -8,20 +8,21 @@ import "swiper/css/pagination";
 
 const HomeSlider = () => {
   return (
-    <div className="homeSlider py-4">
-      <div className="container mx-auto">
+    <div className="homeSlider py-4 bg-gray-100">
+
+      <div className="container mx-auto px-3">
         <Swiper
+          className="mySwiper"
           modules={[Navigation, Autoplay, Pagination]}
-          spaceBetween={15}
           slidesPerView={1}
           navigation
+          loop={true}
+          spaceBetween={30}
           pagination={{ clickable: true }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
           }}
-          loop={true}
-          className="slideHome"
         >
           <SwiperSlide>
             <div className="overflow-hidden rounded-2xl">
@@ -34,7 +35,7 @@ const HomeSlider = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className=" overflow-hidden rounded-2xl">
+            <div className="overflow-hidden rounded-2xl">
               <img
                 src="https://api.spicezgold.com/download/file_1734524930884_NewProject(6).jpg"
                 alt="slider"
@@ -74,7 +75,7 @@ const HomeSlider = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className=" overflow-hidden rounded-2xl">
+            <div className="overflow-hidden rounded-2xl">
               <img
                 src="https://api.spicezgold.com/download/file_1734525014348_NewProject(7).jpg"
                 alt="slider"

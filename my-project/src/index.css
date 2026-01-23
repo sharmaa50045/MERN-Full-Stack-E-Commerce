@@ -1,41 +1,20 @@
 @import "tailwindcss";
 
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  background: #f5f0f0;
-  color: black;
-}
-
-.container {
-  width: 90%;
-  margin: auto;
+.MuiBadge-badge {
+  background-color: #ff5252 !important;
 }
 
 
-.bg-org {
-  background: #ff5252;
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-.link:hover {
-  color: #ff5252;
+::-webkit-scrollbar-thumb {
+  background-color: #ff5252;
+  border-radius: 4px;
 }
 
-.header {
-  border-bottom: 1px solid black;
-}
-
-.hr {
-  display: none;
-}
-
-.slideHome {
-  overflow: inherit !important;
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
