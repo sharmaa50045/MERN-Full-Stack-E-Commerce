@@ -32,3 +32,25 @@
   margin-left: -15px;
   margin-right: -15px;
 }
+
+.homeSliderV2 .swiper-slide-active .info {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.homeSliderV2 .swiper-slide-active .info h4 {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.homeSliderV2 .info h4 {
+  transition-duration: 2s;
+}
+
+.homeSliderV2 .info h2 {
+  transition-duration: 3s;
+}
+
+.homeSliderV2 .info h3 {
+  transition-duration: 4s;
+}

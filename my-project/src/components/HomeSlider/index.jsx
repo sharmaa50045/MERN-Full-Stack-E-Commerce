@@ -12,6 +12,7 @@ const HomeSlider = () => {
 
       <div className="container mx-auto px-3">
         <Swiper
+          infinite={true}
           className="mySwiper"
           modules={[Navigation, Autoplay, Pagination]}
           slidesPerView={1}

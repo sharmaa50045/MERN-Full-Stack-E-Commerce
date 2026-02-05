@@ -5,11 +5,12 @@
     "@mui/material": "^7.3.7",
     "@mui/styled-engine-sc": "^7.3.7",
     "@tailwindcss/vite": "^4.1.18",
+    "bootstrap": "^5.3.8",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-router-dom": "^7.12.0",
     "styled-components": "^6.3.8",
-    "swiper": "^12.0.3",
+    "swiper": "^12.1.0",
     "tailwindcss": "^4.1.18"
   }
 }
